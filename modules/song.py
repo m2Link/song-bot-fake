@@ -15,6 +15,7 @@ OWNER="🗣 Support Group"
 GITCLONE="https://t.me/m2botzsupport"
 B2="https://t.me/m2botz"
 BUTTON1="🧑‍💻Developer"
+B3="🔎Search Inline"
 
 def time_to_seconds(time):
     stringt = str(time)
@@ -31,7 +32,7 @@ async def start(client, message):
                     InlineKeyboardButton(OWNER, url=GITCLONE),
                     InlineKeyboardButton(ABS, url=B2)
                  ],[
-                    InlineKeyboardButton(🔎Search Inline', switch_inline_query_current_chat='')
+                    InlineKeyboardButton(B3', switch_inline_query_current_chat='')
                  ]
           ]
         ),
