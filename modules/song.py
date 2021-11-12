@@ -32,7 +32,7 @@ async def start(client, message):
                     InlineKeyboardButton(OWNER, url=GITCLONE),
                     InlineKeyboardButton(ABS, url=B2)
                  ],[
-                    InlineKeyboardButton(B3', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('🔎Search Inline', switch_inline_query_current_chat='')
                  ]
           ]
         ),
